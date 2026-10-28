@@ -1,0 +1,9 @@
+include README.md LICENSE.txt
+recursive-include LICENSES *.txt
+recursive-include docs *.svg
+recursive-include benchmarks *.py *.json
+recursive-include op *.cpp *.cu *.h
+recursive-include torch_utils/ops *.cpp *.cu *.h *.mm *.metal
+recursive-exclude * __pycache__ *.py[cod] .DS_Store
+prune build
+prune dist

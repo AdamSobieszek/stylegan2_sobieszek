@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="869.76pt" height="324.569844pt" viewBox="0 0 869.76 324.569844" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324.569844 
+L 869.76 324.569844 
+L 869.76 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 396 259.662125 
+L 862.56 259.662125 
+L 862.56 36.318125 
+L 396 36.318125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 396 259.662125 
+L 396 36.318125 
+" clip-path="url(#p94f72456c4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mdcd70f494c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mdcd70f494c" x="396" y="259.662125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="396" y="274.260562" transform="rotate(-0 396 274.260562)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 496.702502 259.662125 
+L 496.702502 36.318125 
+" clip-path="url(#p94f72456c4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mdcd70f494c" x="496.702502" y="259.662125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="496.702502" y="274.260562" transform="rotate(-0 496.702502 274.260562)">50</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 597.405005 259.662125 
+L 597.405005 36.318125 
+" clip-path="url(#p94f72456c4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mdcd70f494c" x="597.405005" y="259.662125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="597.405005" y="274.260562" transform="rotate(-0 597.405005 274.260562)">100</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 698.107507 259.662125 
+L 698.107507 36.318125 
+" clip-path="url(#p94f72456c4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mdcd70f494c" x="698.107507" y="259.662125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="698.107507" y="274.260562" transform="rotate(-0 698.107507 274.260562)">150</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 798.810009 259.662125 
+L 798.810009 36.318125 
+" clip-path="url(#p94f72456c4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.16; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mdcd70f494c" x="798.810009" y="259.662125" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="798.810009" y="274.260562" transform="rotate(-0 798.810009 274.260562)">200</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #334155" x="629.28" y="287.938687" transform="rotate(-0 629.28 287.938687)">Milliseconds per batch · lower is faster</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="392.5" y="64.460311" transform="rotate(-0 392.5 64.460311)">NVIDIA: FP32 eager (CUDA ops)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="392.5" y="108.124828" transform="rotate(-0 392.5 108.124828)">NVIDIA: PyTorch FP16 eager</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="392.5" y="151.789344" transform="rotate(-0 392.5 151.789344)">Ours: Optimized PyTorch FP16 eager</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14"/>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="392.5" y="195.45386" transform="rotate(-0 392.5 195.45386)">NVIDIA: PyTorch FP16 compiled</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15"/>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end" x="392.5" y="239.118376" transform="rotate(-0 392.5 239.118376)">Ours: Optimized PyTorch FP16 compiled</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 396 46.470125 
+L 772.258065 46.470125 
+L 772.258065 74.85206 
+L 396 74.85206 
+z
+" clip-path="url(#p94f72456c4)" style="fill: #94a3b8"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 396 90.134641 
+L 630.479334 90.134641 
+L 630.479334 118.516577 
+L 396 118.516577 
+z
+" clip-path="url(#p94f72456c4)" style="fill: #3b82f6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 396 133.799157 
+L 560.070771 133.799157 
+L 560.070771 162.181093 
+L 396 162.181093 
+z
+" clip-path="url(#p94f72456c4)" style="fill: #0d9488"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 396 177.463673 
+L 535.16298 177.463673 
+L 535.16298 205.845609 
+L 396 205.845609 
+z
+" clip-path="url(#p94f72456c4)" style="fill: #60a5fa"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 396 221.12819 
+L 490.892015 221.12819 
+L 490.892015 249.510125 
+L 396 249.510125 
+z
+" clip-path="url(#p94f72456c4)" style="fill: #047857"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 396 259.662125 
+L 862.56 259.662125 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="779.03071" y="63.420468" transform="rotate(-0 779.03071 63.420468)">186.8 ms</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="637.251979" y="107.084984" transform="rotate(-0 637.251979 107.084984)">116.4 ms</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="566.843416" y="150.7495" transform="rotate(-0 566.843416 150.7495)">81.5 ms</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="541.935626" y="194.414016" transform="rotate(-0 541.935626 194.414016)">69.1 ms</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="497.66466" y="238.078532" transform="rotate(-0 497.66466 238.078532)">47.1 ms</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0f172a" x="396" y="16.318125" transform="rotate(-0 396 16.318125)">StyleGAN2 256px · NVIDIA RTX PRO 6000 Blackwell · batch 64</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #475569" x="7.2" y="315.498125" transform="rotate(-0 7.2 315.498125)">W → image. FP16 applies to the high-resolution blocks.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p94f72456c4">
+   <rect x="396" y="36.318125" width="466.56" height="223.344"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,192 @@
+{
+  "env": {
+    "torch": "2.8.0+cu128",
+    "cuda_available": true,
+    "cuda_runtime": "12.8",
+    "cudnn": 91002,
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+    "capability": [
+      12,
+      0
+    ],
+    "bf16": true,
+    "triton": "3.4.0"
+  },
+  "args": {
+    "device": "cuda",
+    "resolution": 256,
+    "batch": 64,
+    "seed": 0,
+    "warmup": 1,
+    "repeats": 2,
+    "rounds": 2,
+    "compile_mode": "default",
+    "fullgraph": false,
+    "skip_compile": false,
+    "skip_ref": true,
+    "skip_backward": false,
+    "explain": false,
+    "shared_modconv": true,
+    "fir_compose": true,
+    "fir_compose_mode": "polyphase",
+    "fused_epilogue": false,
+    "force_fp16_all": false,
+    "unfused_modconv": false,
+    "low_precision": "bf16",
+    "tf32": false
+  },
+  "correctness": {
+    "control_vs_legacy_fp32": {
+      "max_abs": 0.014919042587280273,
+      "mean_abs": 0.0010511206928640604,
+      "max_over_mean_abs": 0.008314253952990949
+    },
+    "candidate_vs_control_fp16": {
+      "max_abs": 0.14033126831054688,
+      "mean_abs": 0.012667901813983917,
+      "max_over_mean_abs": 0.07820556837592756
+    },
+    "candidate_vs_legacy_fp32": {
+      "max_abs": 0.1390153169631958,
+      "mean_abs": 0.012600308284163475,
+      "max_over_mean_abs": 0.07747203896133144
+    },
+    "control_repeatability": {
+      "max_abs": 0.013012409210205078,
+      "mean_abs": 0.0007435930310748518,
+      "max_over_mean_abs": 0.007251718526281999
+    },
+    "candidate_repeatability": {
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "max_over_mean_abs": 0.0
+    },
+    "candidate_compile_vs_eager": {
+      "max_abs": 0.1512441635131836,
+      "mean_abs": 0.01257482822984457,
+      "max_over_mean_abs": 0.08433845464144417
+    },
+    "candidate_compile_vs_legacy_fp32": {
+      "max_abs": 0.1003420352935791,
+      "mean_abs": 0.008189903572201729,
+      "max_over_mean_abs": 0.05591975213624508
+    },
+    "candidate_compile_repeatability": {
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "max_over_mean_abs": 0.0
+    },
+    "control_grad_vs_legacy_fp32": {
+      "max_abs": 0.0006614513695240021,
+      "mean_abs": 5.68312534596771e-05,
+      "max_over_mean_abs": 0.6146513979154862,
+      "relative_l2": 0.052517931908369064,
+      "cosine": 0.9986457824707031
+    },
+    "candidate_grad_vs_control_fp16": {
+      "max_abs": 0.0006488722283393145,
+      "mean_abs": 5.84781555517111e-05,
+      "max_over_mean_abs": 0.6091035339516562,
+      "relative_l2": 0.05396266281604767,
+      "cosine": 0.9985792636871338
+    },
+    "control_compile_grad_vs_eager": {
+      "max_abs": 1.012749271467328e-05,
+      "mean_abs": 9.85130327535444e-07,
+      "max_over_mean_abs": 0.009506789369557293,
+      "relative_l2": 0.0009073900291696191,
+      "cosine": 0.9999995827674866
+    },
+    "candidate_compile_grad_vs_eager": {
+      "max_abs": 0.00011736992746591568,
+      "mean_abs": 9.344304089609068e-06,
+      "max_over_mean_abs": 0.10920308394188255,
+      "relative_l2": 0.008592639118432999,
+      "cosine": 0.9999635219573975
+    }
+  },
+  "forward": {
+    "fp32-legacy": {
+      "median_ms": 188.76896845176816,
+      "mean_ms": 188.76896845176816,
+      "stdev_ms": 1.156600402281034,
+      "peak_alloc_mib": 8533.115234375,
+      "ms_per_image": 2.9495151320588775
+    },
+    "fp16-control-eager": {
+      "median_ms": 116.51500454172492,
+      "mean_ms": 116.51500454172492,
+      "stdev_ms": 1.0702171435354166,
+      "peak_alloc_mib": 5973.49365234375,
+      "ms_per_image": 1.8205469459644519
+    },
+    "fp16-control-compile": {
+      "median_ms": 69.19269589707255,
+      "mean_ms": 69.19269589707255,
+      "stdev_ms": 0.026806054197436587,
+      "peak_alloc_mib": 3726.11865234375,
+      "ms_per_image": 1.0811358733917587
+    },
+    "fp16-candidate-eager": {
+      "median_ms": 80.46176587231457,
+      "mean_ms": 80.46176587231457,
+      "stdev_ms": 0.08841980763655378,
+      "peak_alloc_mib": 6497.52490234375,
+      "ms_per_image": 1.2572150917549152
+    },
+    "fp16-candidate-compile": {
+      "median_ms": 46.052409801632166,
+      "mean_ms": 46.052409801632166,
+      "stdev_ms": 0.32152381931043494,
+      "peak_alloc_mib": 3450.1806640625,
+      "ms_per_image": 0.7195689031505026
+    }
+  },
+  "backward": {
+    "fp32-legacy": {
+      "median_ms": 543.2537291198969,
+      "mean_ms": 543.2537291198969,
+      "stdev_ms": 0.5802145900252227,
+      "peak_alloc_mib": 24505.2099609375,
+      "ms_per_image": 8.488339517498389
+    },
+    "fp16-control-eager": {
+      "median_ms": 332.5527813285589,
+      "mean_ms": 332.5527813285589,
+      "stdev_ms": 0.01479222673830784,
+      "peak_alloc_mib": 26988.6357421875,
+      "ms_per_image": 5.196137208258733
+    },
+    "fp16-control-compile": {
+      "median_ms": 165.12122936546803,
+      "mean_ms": 165.12122936546803,
+      "stdev_ms": 0.2950964282050884,
+      "peak_alloc_mib": 16568.23486328125,
+      "ms_per_image": 2.580019208835438
+    },
+    "fp16-candidate-eager": {
+      "median_ms": 199.92041820660233,
+      "mean_ms": 199.92041820660233,
+      "stdev_ms": 4.616524100048903,
+      "peak_alloc_mib": 21469.6630859375,
+      "ms_per_image": 3.1237565344781615
+    },
+    "fp16-candidate-compile": {
+      "median_ms": 113.88113722205162,
+      "mean_ms": 113.88113722205162,
+      "stdev_ms": 0.12366412188702695,
+      "peak_alloc_mib": 12026.7412109375,
+      "ms_per_image": 1.7793927690945566
+    }
+  },
+  "provenance": {
+    "source_artifact": "b64_bf16_polyphase.json",
+    "source_sha256": "87616d6418acd07ca185b681bd5db61eda12f9ea9f391740f5ba77551782298d",
+    "historical": true,
+    "model": "Standard StyleGAN2 256x256; not an early-output decoder and not 1024x1024",
+    "checkpoint": "Identity and successful pretrained loading not established by the saved log",
+    "label_correction": "fp16-candidate-* keys use args.low_precision; controls remain FP16 even in the BF16 experiment",
+    "backward_definition": "Forward + scalar loss + autograd.grad with respect to W; not GAN weight training",
+    "caveat": "Only two timing rounds. Archived evidence, not a fresh benchmark of this release."
+  }
+}
